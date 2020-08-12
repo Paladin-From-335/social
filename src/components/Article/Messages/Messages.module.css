@@ -1,0 +1,29 @@
+.article{
+    display: flex;
+
+}
+.users{
+margin: 5px 5px;
+width: 25%;
+height: auto;
+}
+.userItem{
+padding: 20px;
+border: 1px solid white;
+background-color: grey;
+}
+.userItem a{
+    text-decoration: none;
+    color: white;
+}
+.messages{
+    height: 180px;
+margin: 5px -5px;
+width: 50%;
+text-align: end;
+}
+.messageItem{
+    padding: 20px;
+    border: 1px solid white;
+    background-color: gray;
+}

@@ -1,0 +1,16 @@
+.ava{
+    width: 100px;
+    height: 100px;
+}
+
+.selectedPage{
+    font-weight:  bold;
+    font-size: 22px;
+   
+}
+/* .selectPages{
+    cursor: pointer;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+} */
