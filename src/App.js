@@ -3,12 +3,13 @@ import './App.css';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import { Route, BrowserRouter } from "react-router-dom";
-import Profile from './components/Article/Profile/Profile';
+
 import News from './components/Article/News/News';
 import Friends from './components/Article/Friends/Friends';
 import Settings from './components/Article/Settings/Settings';
 import MessagesContainer from './components/Article/Messages/MessagesContainer';
 import UsersContainer from './components/Article/Users/UsersContainer';
+import ProfileContainer from './components/Article/Profile/ProfileContainer';
 
 
 const App = (props) => {
@@ -21,7 +22,7 @@ const App = (props) => {
       <article className="article">
 
         <Route path="/profile" render={() =>
-          <Profile />} />
+          <ProfileContainer />} />
         <Route path="/messages"
           render={() => <MessagesContainer />} />
         <Route path="/news" render={() => <News />} />

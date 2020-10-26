@@ -7,8 +7,6 @@ import App from './App';
 import {  BrowserRouter } from "react-router-dom";
 import {Provider} from 'react-redux';
 
-// addPost('Some post test');
-
 
 ReactDOM.render(
   <BrowserRouter>
@@ -20,11 +18,6 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
-
-
-// let rerenderEntireTree = (state) => {
-// }
-// rerenderEntireTree();
 
 
 // If you want your app to work offline and load faster, you can change
